@@ -1,0 +1,13 @@
+b = int(input('your salary here: '))
+d = input('your grade here (A/B) : ')
+if b < 10000 and d == 'A':
+    print( " your salary with bonus is " , str(b+2000+5000))
+elif b < 10000 and d == 'B':
+    print( "your salary with bonus is ", str(b +2000+10000))
+
+if b >= 10000 and d == 'A':
+    print(" your salary with  bonus is ", str(b + 5000))
+
+elif b >= 10000 and d =='B':
+        print( " your salary with  bonus is ", str(b + 10000))
+
