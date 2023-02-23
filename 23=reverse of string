@@ -1,0 +1,9 @@
+def reverse_for(string):
+    rstring = ''
+    for x in string:
+        rstring = x + rstring
+    return rstring
+
+string = input("enter the string:")
+print('Original String: ', string)
+print('Reverse String: ', reverse_for(string))
