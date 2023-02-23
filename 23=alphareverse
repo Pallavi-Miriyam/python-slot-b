@@ -1,0 +1,3 @@
+str=input("enter the word: ")
+result= ''.join(sorted(str))
+print(result[::-1])
