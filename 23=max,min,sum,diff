@@ -1,0 +1,10 @@
+num=int(input("enter the number"))
+arr=[]
+for n in range(num):
+    number=int(input("enter the number"))
+    arr.append(number)
+print(arr)
+print("max value in array is",max(arr))
+print("min value in arry is",min(arr))
+print("sum is",max(arr)+min(arr))
+print("diff is",max(arr)-min(arr))
