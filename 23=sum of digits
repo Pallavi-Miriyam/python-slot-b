@@ -1,0 +1,10 @@
+def digsum(n):
+    if(n==0):
+        return 0
+    if(n%9==0):
+        return 9
+    else:
+        return(n%9)
+value=int(input("enter the value "))
+n=int(input("enter the number"))
+print(digsum(n))
