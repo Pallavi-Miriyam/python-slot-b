@@ -1,0 +1,8 @@
+n=int(input("enter first demonitation"))
+m=int(input("enter num of notes of 1st denomination"))
+a=int(input("enter second denomination"))
+b=int(input("enter num of notes of 2nd denomination"))
+c=int(input("enter 3rd denomination"))
+d=int(input("enter num of notes of 3rd denomination"))
+total=(n*m)+(a*b)+(c*d)
+print("total amount",total)
