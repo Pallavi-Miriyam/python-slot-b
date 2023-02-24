@@ -1,0 +1,7 @@
+first=input("enter the user name")
+second=input("enter the username agin")
+if first==second:
+    print("user name is valid")
+else:
+    print(" user name not valid")
+
