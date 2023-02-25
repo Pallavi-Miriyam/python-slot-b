@@ -1,0 +1,12 @@
+a = []
+Negative_count = 0
+
+Number = int(input("Please enter the Total Number of array Elements: "))
+for i in range(1, Number + 1):
+    value = int(input("Please enter the Value of %d Element : " %i))
+    a.append(value)
+
+for j in range(Number):
+    if(a[j]<0):
+        Negative_count+=1
+print("Total Number of Negative Numbers in this array = ", Negative_count)
