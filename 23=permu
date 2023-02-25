@@ -1,0 +1,44 @@
+from itertools import permutations
+
+
+def uniquePermutationsUtil(permute):
+
+	p = []
+	
+	for i in permute:
+	
+		permutelist = list(i)
+		
+		p.append(permutelist)
+
+	newlist = []
+	
+	for i in p:
+		if i not in newlist:
+			newlist.append(i)
+	permutelist = []
+	
+	for i in newlist:
+	
+		s=""
+		
+		for j in i:
+		
+			
+			s = s + str(j)
+		s = int(s)
+		
+		permutelist.append(s)
+	print(*permutelist)
+	
+def uniquePermutations(N):
+	num = str(N)
+
+	lis = list(map(int, num))
+    
+	permute = permutations(lis)
+	
+	uniquePermutationsUtil(permute)
+
+N = int(input("enter the number"))
+uniquePermutations(N)
