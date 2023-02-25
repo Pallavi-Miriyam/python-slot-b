@@ -1,0 +1,5 @@
+n=float(input("enter the value"))
+square=n*n
+cube=n*n*n
+print("square of number is",square)
+print("cube of number is",cube)
